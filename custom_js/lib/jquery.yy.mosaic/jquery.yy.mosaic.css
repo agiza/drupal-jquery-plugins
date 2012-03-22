@@ -1,0 +1,37 @@
+.mosaic {
+    width:100%;
+    overflow:hidden;
+}
+.mosaic-loading-mask {
+	position:absolute;
+	z-index:2;
+	width:100%;
+	height:100%;
+	background: #000 url(../images/loading.gif) no-repeat center center;
+	top:0;
+	left:0;
+}
+.mosaic * {
+    margin:0;
+    padding:0;
+}
+.mosaic-row {
+    width: 100%;
+}
+.mosaic-wrapper {
+    position:relative;
+    display:inline;
+    float:left;
+}
+.mosaic-item {
+	position:absolue;
+	top:0;
+	left:0;
+}
+.mosaic-mask {
+    position:absolute;
+    top:0;
+    left:0;
+    z-Index: 2;
+    background:#000;
+}

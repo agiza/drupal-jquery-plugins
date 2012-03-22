@@ -1,0 +1,40 @@
+/* Columns-specific stuff */
+.col {
+	position:absolute;
+}
+.columns {
+	margin:0 1em;
+	font-family:Georgia, arial;
+	text-transform:none;
+	text-align:justify;
+	padding:0 !important;
+
+}
+.columns p {
+	text-indent: 10px;
+	font-weight:normal;
+}
+.interstitial {
+	border:1px solid black;
+	border-width:1px 0;
+}
+.interstitial blockquote {
+	font-size:120%;
+	font-weight:600;
+}
+.interstitial cite {
+	font-size:90%;
+}
+.interstitial img {
+	width:100%;
+}
+
+.col-up:hover, .col-down:hover { 
+	background-color:#F5F5F5;
+	cursor:pointer;
+}
+
+.col-page{
+	position:relative;
+}
+

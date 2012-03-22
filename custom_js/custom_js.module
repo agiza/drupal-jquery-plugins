@@ -1,0 +1,92 @@
+<?php
+
+function custom_js_library() {
+    $path = drupal_get_path('module', 'custom_js');
+    return array(
+		/* jquery plugins online */
+        'jquery.columnizer' => array( // make text multi column
+            'title' => 'Jquery Columnizer',
+            'version' => '1.4.0',
+            'js' => array($path . '/lib/jquery.columnizer/jquery.columnizer.js' => NULL),
+			),
+        'jquery.countdown' => array( // time countdown
+            'title' => 'Jquery Countdown',
+            'version' => '1.5.8',
+            'js' => array($path . '/lib/jquery.countdown/jquery.countdown.js' => NULL),
+            'css' => array($path . '/lib/jquery.countdown/jquery.countdown.css' => array(
+                               'type' => 'file',
+                               'media' => 'all')
+				),
+			),
+		'jquery.reflection' => array( 
+			'title' => 'Jquery Reflection',
+			'version' => '0.1',
+			'js'  => array(
+				$path . '/lib/jquery.reflection/jquery.reflection.js' => NULL,
+				$path . '/lib/jquery.reflection/jquery.textreflection.min.js' => NULL,
+				),
+			'css' => array($path . '/lib/jquery.reflection/jquery.textreflection.min.css' => array(
+							   'type' => 'file',
+							   'media' => 'all')
+				),
+			),
+        'jquery.rotate' => array( // rotate text
+            'title' => 'Jquery Rotate',
+            'version' => '1.8.0',
+            'js' => array($path . '/lib/jquery.rotate/jQueryRotate.js' => NULL),
+			),
+		'jquery.masonry' => array(
+			'title' => 'Jquery Masonry',
+			'version' => '2.1.0',
+			'js' => array($path . '/lib/jquery.masonry/jquery.masonry.min.js' => NULL),
+			),
+		'jquery.js-columns' => array( // make text multi column
+			'title' => 'Jquery js-columns',
+			'version' => '0.1',
+			'js'  => array($path . '/lib/jquery.js-columns/jquery.columns.js' => NULL),
+			'css' => array($path . '/lib/jquery.js-columns/jquery.columns.css' => array(
+							   'type' => 'file',
+							   'media' => 'all')
+				),
+			),
+		/* my jquery plugins */
+		'jquery.yy.bookpages' => array(
+			'title' => 'Jquery Bookpages',
+			'version' => '1.0',
+			'js'  => array(
+				$path . '/lib/jquery.yy.bookpages/jquery.yy.bookpages.js' => NULL,
+				),
+			'css' => array($path . '/lib/jquery.yy.bookpages/jquery.yy.bookpages.css' => array(
+							   'type' => 'file',
+							   'media' => 'all')
+				),
+			),
+        'jquery.yy.filmstrip' => array(
+            'title' => 'Jquery Filmstrip by yymemory',
+            'version' => '1.0.1',
+            'js' => array($path . '/lib/jquery.yy.filmstrip/jquery.yy.filmstrip.js' => NULL),
+            'css' => array($path . '/lib/jquery.yy.filmstrip/jquery.yy.filmstrip.css' => array(
+                               'type' => 'file',
+                               'media' => 'all')
+                ),
+			),
+		'jquery.yy.imageclips' => array(
+			'title' => 'Jquery image clips',
+			'version' => '0.1',
+			'js'  => array($path . '/lib/jquery.yy.imageclips/jquery.yy.imageclips.js' => NULL),
+			'css' => array($path . '/lib/jquery.yy.imageclips/jquery.yy.imageclips.css' => array(
+							   'type' => 'file',
+							   'media' => 'all')
+				),
+			),
+        'jquery.yy.mosaic' => array(
+            'title' => 'Jquery Mosaic',
+            'version' => '1.0.0',
+            'js' => array($path . '/lib/jquery.yy.mosaic/jquery.yy.mosaic.js' => NULL),
+			'css' => array($path . '/lib/jquery.yy.mosaic/jquery.yy.mosaic.css' => array(
+                               'type' => 'file',
+                               'media' => 'all')
+                ),
+			),	   
+		);
+}

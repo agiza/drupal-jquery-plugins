@@ -1,0 +1,12 @@
+; $Id: custom_js.info,v $
+name = Custom Javascript libraries
+description = "Control center for custom javascript libraries."
+package = yymemory
+configure = admin/config/administration/ctd/custom_js
+
+; Purposively added for feature development.
+version = 7.x-1.0-dev
+core = 7.x
+project = custom_js
+
+

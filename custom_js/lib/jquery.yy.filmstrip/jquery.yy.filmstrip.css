@@ -1,0 +1,26 @@
+.filmstrip-container {
+	position:relative;
+	height:150px;
+	overflow:hidden;
+}
+.filmstrip-film-container{
+}
+.filmstrip-film {
+	position:absolute;
+	left:0;
+}
+.filmstrip-prev,
+.filmstrip-next {
+	width:1em;
+	height:100%;
+	position:absolute;
+	z-index:2;
+	opacity:0.5;
+	background:#000;
+}
+.filmstrip-prev {
+	left:0;
+}
+.filmstrip-next {
+	right:0;
+}
