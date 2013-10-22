@@ -1,4 +1,3 @@
-A drupal 6 module that install some jQuery plugins with CSS themed.
+A drupal 6 module that install customized jQuery plugins including js and css. Ready to use.
 
-This module is meant to set a structure for drupal 6 modules I often use for our designs. jquery.yy.*.js were my codes. Others from online.
-
+This module is meant to set a structure for javascripts I often use in Drupal development.
